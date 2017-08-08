@@ -1,0 +1,33 @@
+header {
+    border-bottom: 1px solid gray; 
+    height: 40px;
+}
+
+.left-div {
+    float: left;
+    margin: 10px 100px;
+}
+
+.left-div a {
+    text-decoration: none;
+    color: black;
+}
+
+.left-div img {
+    vertical-align: middle;
+}
+
+.right-div {
+    float: right;
+    margin: 8px 30px;
+}
+
+.clearfix::after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+/* .search-bar label { */
+    border: 1px solid grey;
+}
