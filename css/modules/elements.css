@@ -6,9 +6,25 @@ body {
     border: 1px solid gray;
     margin: 35px;
     width: 95%;
-    height: 900px;
+     height: 1800px; 
 }
 
 h1 {
     float: left;
+}
+
+.section-head h2 {
+    margin: 0;
+    text-align: center;
+    padding-top: 180px;
+    font-size: 40px;
+}
+
+.section-head p {
+    text-align: center;
+    font-size: 25px;
+}
+
+section {
+    border-bottom: 1px solid grey;
 }

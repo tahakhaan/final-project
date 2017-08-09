@@ -1,0 +1,29 @@
+section {
+    background-color: rgb(215, 215, 215);
+    height: 500px;
+}
+
+.circle-div {
+    background-color: rgb(241, 241, 241);
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.circle-div a {
+    display: inline-block;
+    text-align: center;
+    margin: 70px;
+    text-decoration: none;
+    color: black;
+}
+
+.circle-div {
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
