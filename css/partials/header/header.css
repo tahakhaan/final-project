@@ -1,6 +1,5 @@
-header {
+.top-div {
     border-bottom: 1px solid gray; 
-    height: 40px;
 }
 
 .left-div {
@@ -11,6 +10,11 @@ header {
 .left-div a {
     text-decoration: none;
     color: black;
+}
+
+.left-div a:hover {
+    background-color: darkkhaki;
+    padding: 1px 5px;
 }
 
 .left-div img {
@@ -28,6 +32,67 @@ header {
     clear: both;
 }
 
-/* .search-bar label { */
-    border: 1px solid grey;
+.search-bar img {
+    border: 1px solid black;
+    border-left: 0; 
+    vertical-align: top;
+    padding: 12px;
+    background-color: white;
 }
+
+.search-bar input {
+    border: 1px solid black;
+    border-right: 0; 
+    padding: 10px 10px;
+}
+
+form input {
+    font-size: 17px;
+}
+
+.top-nav li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.top-nav a {
+    text-decoration: none;
+    border: 1px solid grey;
+    padding: 2px 10px;
+    background-color: rgb(215, 215, 215);
+    color: black;
+}
+
+.top-nav a:hover {
+    background-color: darkkhaki;
+}
+
+.top-nav {
+    float: right;
+    margin: 20px 30px;
+}
+
+form {
+    float: left; 
+    text-align: center;
+    margin: 20px 0px 20px 190px;
+    font-size: 0;
+
+}
+
+.bottom-head {
+    border-bottom: 1px solid grey;
+    background-color: rgb(241, 241, 241);
+}
+
+.bottom-head::after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.bottom-div {
+    margin-left: 50px;
+}
+
