@@ -13,8 +13,7 @@
 }
 
 .left-div a:hover {
-    background-color: darkkhaki;
-    padding: 1px 5px;
+    text-decoration: underline;
 }
 
 .left-div img {
@@ -73,12 +72,12 @@ form input {
     margin: 20px 30px;
 }
 
-form {
+.search-bar {
     float: left; 
     text-align: center;
     margin: 20px 0px 20px 190px;
     font-size: 0;
-
+    margin-left: 200px;
 }
 
 .bottom-head {
@@ -90,9 +89,5 @@ form {
     content: ' ';
     display: block;
     clear: both;
-}
-
-.bottom-div {
-    margin-left: 50px;
 }
 
